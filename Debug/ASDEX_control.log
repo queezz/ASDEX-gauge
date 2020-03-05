@@ -1,0 +1,110 @@
+﻿Build started 09/07/2015 12:34:25.
+     1>Project "C:\Users\Arseny\Documents\Visual Studio 2013\Projects\ASDEX\ASDEX_control.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ASDEX_control.CPP
+         ASDEX_control.CPP
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(211): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(239): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(284): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(294): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(296): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(297): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(305): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(323): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(368): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(419): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(431): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(448): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(517): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(525): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(529): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\arseny\documents\visual studio 2013\projects\asdex\asdex_control.cpp(540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ASDEX_control.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\ASDEX_control.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ASDEX_control.lib" /MACHINE:X86 /SAFESEH .\Debug\ASDEX_control.res
+         .\Debug\ASDEX_control.obj
+         ASDEX_control.vcxproj -> C:\Users\Arseny\Documents\Visual Studio 2013\Projects\ASDEX\.\Debug\ASDEX_control.exe
+     1>Done Building Project "C:\Users\Arseny\Documents\Visual Studio 2013\Projects\ASDEX\ASDEX_control.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

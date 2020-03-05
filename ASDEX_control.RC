@@ -1,0 +1,211 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese (Japan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "ag.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "RATOC Systems,Inc."
+            VALUE "FileDescription", "ASDEX"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ASDEX"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "asdex.exe"
+            VALUE "ProductName", "RATOC Systems,Inc. ASDEX gauge"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1             "PROG:NSP:INS 1,0.700,5.000,1,1,0,0"
+    IDS_STRING2             "PROG:NSP:INS 2,0.700,3.000,1,0,0,0"
+    IDS_STRING3             "PROG:NSP:INS 3,0.050,1.800,1,0,0,0"
+    IDS_STRING4             "PROG:NSP:INS 1,1.000,5.000,1,1,0,0"
+    IDS_STRING5             "PROG:NSP:INS 2,0.500,2.000,1,0,0,0"
+    IDS_STRING6             "PROG:NSP:INS 3,0.800,4.000,1,1,0,0"
+END
+
+#endif    // Japanese (Japan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 198, 155
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ASDEX gauge controller"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Initialize",IDB_INIT,96,4,30,25
+    LTEXT           "USB address:",IDC_STATIC,5,4,41,8
+    LTEXT           "AG address:",IDC_STATIC,6,19,38,8
+    EDITTEXT        IDE_MYADRS,55,3,36,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDE_GPADRS,55,17,36,12,ES_CENTER | ES_AUTOHSCROLL
+    GROUPBOX        "Send any command",IDC_STATIC,3,54,191,60
+    LTEXT           "Sent:",IDC_STATIC,7,64,22,9
+    LTEXT           "Reply:",IDC_STATIC,6,78,22,8
+    COMBOBOX        IDC_TXDATA,84,62,102,154,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDE_TXDATA,30,63,48,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDE_RXDATA,30,78,48,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Send command",IDB_TXDATA,84,76,102,19
+    LTEXT           "",IDT_STATUS,6,96,183,14,SS_SUNKEN
+    PUSHBUTTON      "Update",IDC_AGSTATUS,165,120,30,29
+    EDITTEXT        IDC_EDIT_FMV,2,120,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_FIV,56,120,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_ECV,111,120,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CFV,2,136,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_GIV,56,136,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_SIV,111,136,52,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "AG1 (wall)",IDC_AG1,"Button",BS_AUTORADIOBUTTON,9,40,42,10
+    CONTROL         "AG2 (bottom)",IDC_AG2,"Button",BS_AUTORADIOBUTTON,66,40,57,10
+    CONTROL         "AG3 (top)",IDC_AG3,"Button",BS_AUTORADIOBUTTON,132,40,42,10
+    GROUPBOX        "Select gauge settings",IDC_STATIC,5,30,188,24
+    PUSHBUTTON      "Start",IDC_START_AG,129,4,30,25
+    PUSHBUTTON      "Stop",IDC_STOP,162,4,30,25
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GREEN               BITMAP                  "green.bmp"
+IDB_RED                 BITMAP                  "red.bmp"
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
